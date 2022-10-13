@@ -9,11 +9,11 @@ Fabrik (klein) für Prothesen, beschäftigt zusätzlich Menschen mit Behinderung
 
 Unterseiten:
 1. Über uns
-2. Produkt
-3. Arbeitsmöglichkeiten
-4. Team
-5. Standorte
-6.
-7.
-8.
+2. Produktbereich
+3. Formuar zum bestellen
+4. Arbeitsmöglichkeiten
+5. Team
+6. Automation
+7. Standorte
+8. Kompetenz / Erfahrung
 Impressum
