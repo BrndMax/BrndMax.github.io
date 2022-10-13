@@ -2,7 +2,7 @@ Informatik Projekt E1
 
 Projeoktwebsite (Obersberg GMBH)
 
-Contributor:
+Contributor: Max Brand, Chiara Kofink
 
 Projektidee:
 Fabrik (klein) für Prothesen, beschäftigt zusätzlich Menschen mit Behinderung/Einschränkung
