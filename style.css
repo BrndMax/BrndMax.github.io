@@ -1,4 +1,10 @@
 div.menu{
-  color:lime;
+	position: relative;
+	width:15%;
+	
 }
 
+div.content{
+	position: absolute;
+	margin-left:20%;
+}
