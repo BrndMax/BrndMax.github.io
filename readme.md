@@ -1,3 +1,3 @@
 Informatik Projekt E1
 
-Projeoktwebsite (MSO GMBH)
+Projeoktwebsite (Obersberg GMBH)
