@@ -1,10 +1,18 @@
 div.menu{
 	position: relative;
+	height: 100%;
 	width:15%;
-	
+	background: rgb(100,100,100);
+	background: linear-gradient(90deg, rgba(100,100,100,1) 0%, rgba(166,226,115,1) 75%, rgba(166,226,115,1) 100%);
+
 }
 
 div.content{
 	position: absolute;
-	margin-left:20%;
+	margin-left: 20%;
+
+}
+
+h1#headline-startpage{
+	color: #A6E273
 }
