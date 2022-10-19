@@ -1,18 +1,21 @@
-div.menu{
-	position: relative;
-	height: 100%;
-	width:15%;
-	background: rgb(100,100,100);
-	background: linear-gradient(90deg, rgba(100,100,100,1) 0%, rgba(166,226,115,1) 75%, rgba(166,226,115,1) 100%);
-
-}
-
-div.content{
+div.sitewrapper{
 	position: absolute;
-	margin-left: 20%;
-
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-h1#headline-startpage{
-	color: #A6E273;
+div.sitenav_wrapper{
+	
+}
+
+div.sitenav_button{
+	position:relative;
+	width:10px;
+	height:10px;
+}
+
+div.sitenav_menu_wrapper{
+	
 }
