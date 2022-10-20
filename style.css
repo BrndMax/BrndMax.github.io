@@ -20,14 +20,11 @@ div.PageTopper{
 	border-bottom: solid;
 	border-color: #16D09B;
 	padding-left: 20px;
+	margin:0px;
 
 }
 
 div.sitenav_wrapper{
-	position:sticky;
-	top:5%;
-	height:95%;
-	width:10%;
 	box-sizing:inherit;
 }
 
@@ -36,12 +33,17 @@ div.sitenav_button{
 	width:30px;
 	height:30px;
 	box-sizing:inherit;
-}
-
-div.sitenav_menu_wrapper{
 	box-sizing:inherit;
 	height:inherit;
 	width:inherit;
+}
+
+div.sitenav_menu_wrapper{
+	position:sticky;
+	top:5%;
+	height:95%;
+	width:10%;
+	box-sizing:inherit;
 }
 
 div.content_wrapper{
