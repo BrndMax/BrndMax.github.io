@@ -17,6 +17,10 @@ div.PageTopper{
 	height:10%;
 	width:100%;
 	box-sizing:inherit;
+	border-bottom: solid;
+	border-color: #16D09B;
+	padding-left: 20px;
+
 }
 
 div.sitenav_wrapper{
