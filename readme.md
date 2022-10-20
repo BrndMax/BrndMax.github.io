@@ -17,3 +17,7 @@ Unterseiten:
 7. Standorte
 8. Kompetenz / Erfahrung
 Impressum
+
+Aussehen:
+
+Colorpalett: https://coolors.co/ffffff-2e3245-223f6d-164b95-4771b0-7796cb-47b3b3-16d09b-2ad4a4 
