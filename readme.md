@@ -10,8 +10,8 @@ Fabrik (klein) für Prothesen, beschäftigt zusätzlich Menschen mit Behinderung
 Unterseiten:
 1. Über uns
 2. Produktbereich
-3. Formuar zum bestellen
-4. Arbeitsmöglichkeiten
+3. Arbeitsmöglichkeiten
+4. Anmelung Arbeit
 5. Team
 6. Automation
 7. Standorte
