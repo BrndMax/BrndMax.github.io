@@ -1,21 +1,46 @@
+body{
+	margin:0px;
+	box-sizing:border-box
+}
+
 div.sitewrapper{
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	box-sizing:inherit;
+}
+
+div.PageTopper{
+	position:sticky;
+	height:10%;
+	width:100%;
+	box-sizing:inherit;
 }
 
 div.sitenav_wrapper{
-	
+	position:sticky;
+	top:10%;
+	height:90%;
+	width:10%;
+	box-sizing:inherit;
 }
 
 div.sitenav_button{
 	position:relative;
-	width:10px;
-	height:10px;
+	width:30px;
+	height:30px;
+	box-sizing:inherit;
 }
 
 div.sitenav_menu_wrapper{
-	
+	box-sizing:inherit;
+}
+
+div.content_wrapper{
+	height:90%;
+	width:90%;
+	top:10%;
+	box-sizing:inherit;
 }
