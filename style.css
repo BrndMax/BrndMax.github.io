@@ -35,6 +35,11 @@ div.sitenav_button{
 	box-sizing:inherit;
 }
 
+button.openbtn{
+	width:inherit;
+	height:inherit;
+}
+
 div.sitenav_menu_wrapper{
 	position:sticky;
 	top:5%;
