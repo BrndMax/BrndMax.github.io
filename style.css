@@ -9,7 +9,9 @@ div.PageTopper {
 	width: 100%;
 	box-sizing: inherit;
 	border-bottom: solid;
+	border-width: 5px;
 	border-color: #16D09B;
+	background-color: #ffffff;
 	padding-left: 20px;
 	margin: 0px;
     z-index: 40; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
@@ -28,17 +30,25 @@ div.sitenav_wrapper {
     position: fixed;
     top: 5%; /*Daduch setzen wir direkt unter der Navbar an*/
 	box-sizing: inherit;
-    height: 25%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
+    height: 100%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
     width: 25%; /*Durch diese Breite nimmt der Sitenav wrapper 1/4 des Bildes ein*/
     z-index: 30; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
-button.sitenav_button {
+#navbar_open_btn {
     position:absolute;
-    top: 0px;
-	width: 15%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
-    height: 15%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
+    top: 2%;
+	width: 20%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
+    height: 8%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
+	left: 0;
 	box-sizing: inherit;
+	font-size: 30px;
+	background-color: #2AD4A4;
+	border-style: groove;
+	border-top-right-radius: 1cm;
+	border-bottom-right-radius: 1cm;
+	border-color: #2AD4A4;
+	transition: 2s;
 }
 
 div.sitenav_menu_wrapper {
@@ -46,21 +56,44 @@ div.sitenav_menu_wrapper {
 	height: 100%;
 	width: 100%; /*Setze width hier auf volle breite*/
 	box-sizing: inherit;
-	background-color: #7796CB;
-    top: 15%; /*Somit liegen der Wrapper genau unter dem Knopf*/
-    left: -1000px; /*Aus dem Bild heraus bewegen*/
+	background-color: #2AD4A4;
+    top: 0; /*Somit liegen der Wrapper genau unter dem Knopf*/
+    left: -100%; /*Aus dem Bild heraus bewegen*/
 	/*Padding fällt hier weg*/
     z-index: 35; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
     overflow: hidden; /*Hier wird der Overflow benötigt*/
+	transition: 2s;
 }
+
+#MenuHeadline{
+	color: #2E3245;	
+	padding-left: 0.5cm;
+	padding-top: 0.3cm;
+	padding-bottom: 0.3cm;
+	font-size: 40px;
+}
+
+#navbar_close_btn{
+	position: absolute;
+	top: 1.1cm;
+	left: 70%;
+	font-size: 50px;
+	background-color: #2AD4A4;
+	border: none;
+}
+
 
 div.sitenav_menu_wrapper a{
 	display: block;
-	padding: 2%, 2%, 2%, 8%; /* Keine geharcodeten Werte*/
+	padding-left: 0.5cm;
+	padding-top: 0.3cm; /* Keine gehardcodeten Werte*/
+	padding-bottom: 0.3cm;
 	font-size: 25px;
 	color: #2E3245;
+	transition: 0.5s;
 }
 
 div.sitenav_menu_wrapper a:hover {
 	color: #ffffff;
+	background-color: #16D09B;
 }
