@@ -16,7 +16,7 @@ div.PageTopper {
 }
 
 div.PageWrapper {
-    position: absolute; /* Somit ist alles darin relativ platziert*/
+    position: absolute;
     min-height: calc(100vh - 2rem) !important; /*Höhe der Seite - 5% der Navbar | Sehr wichtig darum !important*/
     width: 100%;
     display: flex;

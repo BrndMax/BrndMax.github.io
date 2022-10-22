@@ -1,6 +1,5 @@
 # Informatik Projekt E1 | Obersberg GmbH
 
-
 ### Projektidee
 
 Kleinere Fabrik, die Prothesen herstellt und zusätzlich behinderte/eingeschränkte Menschen beschäftigt
