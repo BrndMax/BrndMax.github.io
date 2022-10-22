@@ -33,24 +33,36 @@ div.sitenav_button{
 	width:30px;
 	height:30px;
 	box-sizing:inherit;
-	box-sizing:inherit;
-	height:inherit;
-	width:inherit;
 }
 
 div.sitenav_menu_wrapper{
 	position:sticky;
 	top:5%;
 	height:95%;
-	width:10%;
+	width:0;
 	box-sizing:inherit;
+	background-color:#7796CB;
+	padding:20px;
+	z-index:1;
+	overflow-x:hidden;
+	transition:0,5s;
+}
+
+div.sitenav_menu_wrapper a{
+	display:block;
+	padding:8px 8px 8px 32px;
+	font-size: 25px;
+	color:#2E3245;
+}
+
+div.sitenav_menu_wrapper a:hover{
+	color:#ffffff;
 }
 
 div.content_wrapper{
 	position:absolute;
 	height:95%;
-	width:90%;
-	left:10%;
+	width:100%;
 	top:5%;
 	box-sizing:inherit;
 }

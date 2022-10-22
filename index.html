@@ -15,12 +15,18 @@
 			<!-- Responsible for Sitenav menuz on all pages -->
 				<div class="sitenav_button">
 				<!-- Shows/hides menu on click -->
-					<button onclick="menuExpander()">
+					<button class="openbtn" onclick="menuExpander()">
 					<!-- calls the menuExpander function on click -->
 				</div>
 				<div class="sitenav_menu_wrapper">
 				<!-- wraps the entire menu (used for positioning/expanding menu) -->
-					
+					<button class="closebtn" onclick="menuCollapser()">
+					<a href="/About.html">Über uns</a>
+					<a href="/Products.html">Produkte</a>
+					<a href="/Locations.html">Standorte</a>
+					<a href="/.html"></a>
+					<a href="/Jobs.html">Stellenangebote</a>
+					<a href="/Impressum.html">Impressum</a>
 				</div>
 			</div>
 			<div class="content_wrapper">
@@ -32,8 +38,11 @@
 				<!-- Add vingette to div.content_wrapper to focus menu -->
 				
 				function menuExpander() {
-				alert("WIP") 
+				document.getElementById("sitenav_menu_wrapper").style.width = "250px"
 				}
+				
+				function menuCollapser() {
+				document.getElementById("sitenav_menu_wrapper").style.width = "0px"
 			</script>
      </body>
 </html>

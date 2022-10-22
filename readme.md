@@ -11,7 +11,7 @@ Unterseiten:
 1. Über uns
 2. Produktbereich
 3. Arbeitsmöglichkeiten
-4. Anmelung Arbeit
+4. Anmeldung Arbeit
 5. Team
 6. Automation
 7. Standorte
