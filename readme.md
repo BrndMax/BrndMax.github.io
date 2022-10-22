@@ -1,13 +1,12 @@
-Informatik Projekt E1
+# Informatik Projekt E1 | Obersberg GmbH
 
-Projeoktwebsite (Obersberg GMBH)
 
-Contributor: Max Brand, Chiara Kofink
+### Projektidee
 
-Projektidee:
-Fabrik (klein) für Prothesen, beschäftigt zusätzlich Menschen mit Behinderung/Einschränkung
+Kleinere Fabrik, die Prothesen herstellt und zusätzlich behinderte/eingeschränkte Menschen beschäftigt
 
-Unterseiten:
+### Aufbau
+
 1. Über uns
 2. Produktbereich
 3. Arbeitsmöglichkeiten
@@ -18,11 +17,16 @@ Unterseiten:
 8. Kompetenz / Erfahrung
 9. Impressum
 
-Aussehen:
+### Design
 
-Colorpalett: https://coolors.co/ffffff-2e3245-223f6d-164b95-4771b0-7796cb-47b3b3-16d09b-2ad4a4 
+[Farbpalette](https://coolors.co/ffffff-2e3245-223f6d-164b95-4771b0-7796cb-47b3b3-16d09b-2ad4a4)
 
-backround: #FFFFFF
-font: #2E3245
-menu: #7796CB
-highlight: #11D09B
+- Background: #FFFFFF
+- Font: #2E3245
+- Menu: #7796CB
+- Highlight: #11D09B
+
+### Contributor
+
+- Max Brand
+- Chiara Kofink

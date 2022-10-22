@@ -1,73 +1,66 @@
 body{
-	margin:0px;
-	box-sizing:border-box
+	margin: 0px;
+	box-sizing: border-box;
 }
 
-div.sitewrapper{
-	position: absolute;
-	height: 100%;
+div.PageTopper {
+	position: sticky;
+	height: 2rem; /* 5% in 2 rem umwandeln um den neuen sitewrapper (Pagewrapper) ummzusetzen*/
 	width: 100%;
-	display: flex;
-	flex-direction: column;
-	box-sizing:inherit;
-}
-
-div.PageTopper{
-	position:sticky;
-	height:5%;
-	width:100%;
-	box-sizing:inherit;
+	box-sizing: inherit;
 	border-bottom: solid;
 	border-color: #16D09B;
 	padding-left: 20px;
-	margin:0px;
-
+	margin: 0px;
+    z-index: 40; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
-div.sitenav_wrapper{
-	box-sizing:inherit;
+div.PageWrapper {
+    position: absolute; /* Somit ist alles darin relativ platziert*/
+    min-height: calc(100vh - 2rem) !important; /*Höhe der Seite - 5% der Navbar | Sehr wichtig darum !important*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
 }
 
-div.sitenav_button{
-	position:sticky;
-	width:30px;
-	height:30px;
-	box-sizing:inherit;
+div.sitenav_wrapper {
+    position: fixed;
+    top: 5%; /*Daduch setzen wir direkt unter der Navbar an*/
+	box-sizing: inherit;
+    height: 25%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
+    width: 25%; /*Durch diese Breite nimmt der Sitenav wrapper 1/4 des Bildes ein*/
+    z-index: 30; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
-button.openbtn{
-	width:inherit;
-	height:inherit;
+button.sitenav_button {
+    position:absolute;
+    top: 0px;
+	width: 15%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
+    height: 15%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
+	box-sizing: inherit;
 }
 
-div.sitenav_menu_wrapper{
-	position:sticky;
-	top:5%;
-	height:95%;
-	width:0;
-	box-sizing:inherit;
-	background-color:#7796CB;
-	padding:20px;
-	z-index:1;
-	overflow-x:hidden;
-	transition:0,5s;
+div.sitenav_menu_wrapper {
+    position: absolute;
+	height: 100%;
+	width: 100%; /*Setze width hier auf volle breite*/
+	box-sizing: inherit;
+	background-color: #7796CB;
+    top: 15%; /*Somit liegen der Wrapper genau unter dem Knopf*/
+    left: -1000px; /*Aus dem Bild heraus bewegen*/
+	/*Padding fällt hier weg*/
+    z-index: 35; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
+    overflow: hidden; /*Hier wird der Overflow benötigt*/
 }
 
 div.sitenav_menu_wrapper a{
-	display:block;
-	padding:8px 8px 8px 32px;
+	display: block;
+	padding: 2%, 2%, 2%, 8%; /* Keine geharcodeten Werte*/
 	font-size: 25px;
-	color:#2E3245;
+	color: #2E3245;
 }
 
-div.sitenav_menu_wrapper a:hover{
-	color:#ffffff;
-}
-
-div.content_wrapper{
-	position:absolute;
-	height:95%;
-	width:100%;
-	top:5%;
-	box-sizing:inherit;
+div.sitenav_menu_wrapper a:hover {
+	color: #ffffff;
 }
