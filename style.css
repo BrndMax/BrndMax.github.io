@@ -31,7 +31,7 @@ div.sitenav_wrapper {
     top: 5%; /*Daduch setzen wir direkt unter der Navbar an*/
 	box-sizing: inherit;
     height: 100%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
-    width: 25%; /*Durch diese Breite nimmt der Sitenav wrapper 1/4 des Bildes ein*/
+    width: 8cm; /*Durch diese Breite nimmt der Sitenav wrapper 1/4 des Bildes ein*/
     z-index: 30; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
@@ -47,7 +47,7 @@ div.sitenav_wrapper {
 	border-style: groove;
 	border-top-right-radius: 1cm;
 	border-bottom-right-radius: 1cm;
-	border-color: #2AD4A4;
+	border: none;
 	transition: 2s;
 }
 
@@ -72,16 +72,6 @@ div.sitenav_menu_wrapper {
 	padding-bottom: 0.3cm;
 	font-size: 40px;
 }
-
-#navbar_close_btn{
-	position: absolute;
-	top: 1.1cm;
-	left: 70%;
-	font-size: 50px;
-	background-color: #2AD4A4;
-	border: none;
-}
-
 
 div.sitenav_menu_wrapper a{
 	display: block;
