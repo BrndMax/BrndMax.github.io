@@ -5,21 +5,31 @@ body{
 
 div.PageTopper {
 	position: sticky;
-	height: 2rem; /* 5% in 2 rem umwandeln um den neuen sitewrapper (Pagewrapper) ummzusetzen*/
+	top: 0px;
+	height: 57px;
 	width: 100%;
-	box-sizing: inherit;
+	box-sizing: border-box;
 	border-bottom: solid;
 	border-width: 5px;
 	border-color: #16D09B;
 	background-color: #ffffff;
+	font-size: 32px;
 	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 15px;
 	margin: 0px;
     z-index: 40; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
+#logo{
+	height: 32px;
+	width: 32px;
+	float: left;
+}
+
 div.PageWrapper {
     position: absolute;
-    min-height: calc(100vh - 2rem) !important; /*Höhe der Seite - 5% der Navbar | Sehr wichtig darum !important*/
+    min-height: calc(100vh - 57px) !important; /*Höhe der Seite - 5% der Navbar | Sehr wichtig darum !important*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -27,7 +37,7 @@ div.PageWrapper {
 }
 
 div.sitenav_wrapper {
-    position: fixed;
+    position: fixed;	
     top: 5%; /*Daduch setzen wir direkt unter der Navbar an*/
 	box-sizing: inherit;
     height: 100%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
@@ -36,7 +46,7 @@ div.sitenav_wrapper {
 }
 
 #navbar_open_btn {
-    position:absolute;
+    position: absolute;
     top: 2%;
 	width: 20%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
     height: 8%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */

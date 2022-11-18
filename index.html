@@ -8,7 +8,7 @@
     <body>
         <div class="PageTopper">
             <!-- Gives information about current position on page + Logo -->
-            <p>Test 1234 Hier kommt der Page Topper mit Logo und Seitenabschnitt hin</p>
+            <img id="logo" src="/Images/Logo.png">Test 12345
         </div>
         <div class="PageWrapper">
             <div class="sitenav_wrapper">
@@ -33,8 +33,7 @@
             <section>
             <!-- Content hier hinein. Der Wrapper wird nicht mehr benötigt -->
             </section>
-        </div> <!-- Der schließen-tag for dem Kommentar hat gefehlt -->
-
+        </div>
         <!-- Add functionality to menu expander via JavaScript -->
         <!-- Add state to menu/sitenav for hidden/shown -->
         <!-- Add vingette to div.content_wrapper to focus menu -->
@@ -42,7 +41,6 @@
             let open = false;
 
             function menuHandler() {
-                // Wenn der Wrapper offen ist, wird der unten stehende Codeblock ausgeführt, andernfalls der 'else'-Block darunter
                 if (open) {
                     // sitenav_menu_wrapper
                     document.getElementById("sitenav_menu_wrapper").style.left = "-100%"
