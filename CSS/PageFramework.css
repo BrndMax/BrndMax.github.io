@@ -4,7 +4,7 @@ body{
 }
 
 div.PageTopper {
-	position: sticky;
+	position: fixed;
 	top: 0px;
 	height: 64px;
 	width: 100%;
