@@ -6,24 +6,22 @@ body{
 div.PageTopper {
 	position: sticky;
 	top: 0px;
-	height: 57px;
+	height: 64px;
 	width: 100%;
 	box-sizing: border-box;
 	border-bottom: solid;
 	border-width: 5px;
-	border-color: #16D09B;
-	background-color: #ffffff;
-	font-size: 32px;
-	padding-left: 20px;
-	padding-bottom: 10px;
-	padding-top: 15px;
+	border-color: #23C9A1;
+	background-color: #16D09B;
+	color: #ffffff;
+	font-size: 48px;
 	margin: 0px;
     z-index: 40; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
 #logo{
-	height: 32px;
-	width: 32px;
+	height: 59px;
+	width: 143.8125px;
 	float: left;
 }
 

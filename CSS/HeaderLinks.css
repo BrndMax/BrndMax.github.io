@@ -1,0 +1,16 @@
+div.PageTopper a{
+    color: #2E3245;
+    transition: 0.5s;
+}
+
+div.PageTopper a:hover{
+    color: #ffffff;
+}
+
+#Page{
+    font-size: 48px;
+}
+
+#index, #about, #career, #jobs, #locations, #products, #impressum{
+    font-size: 40px;
+}
