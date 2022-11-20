@@ -1,3 +1,5 @@
 .ContentSection {
 top: 64px ;
-width: absolut ;
+width: 100% ;
+color: green ;
+}
