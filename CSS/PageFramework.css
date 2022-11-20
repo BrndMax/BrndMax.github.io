@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 	box-sizing: border-box;
+	height: 100vh;
 }
 
 div.PageTopper {
@@ -20,9 +21,9 @@ div.PageTopper {
 }
 
 #logo{
+	position: absolute;
 	height: 59px;
 	width: 143.8125px;
-	float: left;
 }
 
 div.PageWrapper {
@@ -57,6 +58,7 @@ div.sitenav_wrapper {
 	border-bottom-right-radius: 1cm;
 	border: none;
 	transition: 2s;
+	z-index: 30;
 }
 
 div.sitenav_menu_wrapper {
@@ -94,4 +96,14 @@ div.sitenav_menu_wrapper a{
 div.sitenav_menu_wrapper a:hover {
 	color: #ffffff;
 	background-color: #16D09B;
+}
+
+.ContentSection {
+    position: absolute;
+    top: 64px;;
+    padding: 0 64px 0px 64px;
+    width: calc(100vw-128px);
+    min-height: calc(100vh-64px);
+    color: #2E3245;
+    font-size: medium;
 }
