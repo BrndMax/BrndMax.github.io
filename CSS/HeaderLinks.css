@@ -7,10 +7,10 @@ div.PageTopper a:hover{
     color: #ffffff;
 }
 
-#Page{
+#index, #impressum, #Page{
     font-size: 48px;
 }
 
-#index, #about, #career, #jobs, #locations, #products, #impressum, #team, #robots{
+#about, #career, #jobs, #locations, #products, #team, #robots{
     font-size: 40px;
 }
