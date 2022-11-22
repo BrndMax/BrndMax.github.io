@@ -2,6 +2,7 @@
     background-image: url(/Images/HompageBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
 }
 
 .Textwrapper {
@@ -13,21 +14,32 @@
 
 #Text_1 {
     height: 30vh;
-    width: calc(100vw-40px);
+    width: 80%;
     margin: 20px;
     padding: 5%;
 }
 
 #Text_2 {
     height: 30vh;
-    width: calc(100vw-40px);
+    width: 80%;
     margin: 20px;
     padding: 5%;
 }
 
 #Text_3 {
-    width: calc(100vw-40px);
+    width: 80%;
     height: 30vh;
     margin: 20px;
     padding: 5%;
+}
+
+.Footer_container{
+    position: relative;
+    bottom: 0px;
+    height: 250px;
+    width: 100%;
+    left: -64px;
+    background-color: #2E3245;
+    border-top: 5px solid;
+    border-color: #23C9A1;
 }
