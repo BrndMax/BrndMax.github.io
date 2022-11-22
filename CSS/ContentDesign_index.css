@@ -19,8 +19,15 @@
 }
 
 #Text_2 {
-    height: 60vh;
+    height: 30vh;
     width: calc(100vw-40px);
+    margin: 20px;
+    padding: 5%;
+}
+
+#Text_3 {
+    width: calc(100vw-40px);
+    height: 30vh;
     margin: 20px;
     padding: 5%;
 }
