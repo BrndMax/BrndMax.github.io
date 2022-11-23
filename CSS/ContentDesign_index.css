@@ -2,7 +2,6 @@
     background-image: url(/Images/HompageBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
     font-size: 0.6cm;
 }
 
@@ -32,15 +31,4 @@
     height: 30vh;
     margin: 20px;
     padding: 5%;
-}
-
-.Footer_container{
-    position: relative;
-    bottom: 0px;
-    height: 250px;
-    width: 100%;
-    left: -64px;
-    background-color: #2E3245;
-    border-top: 5px solid;
-    border-color: #23C9A1;
 }
