@@ -2,7 +2,7 @@
     background-image: url(/Images/HompageBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 0.6cm;
+    font-size: 2.5vh;
 }
 
 .Textwrapper {
@@ -13,22 +13,22 @@
 }
 
 #Text_1 {
-    height: 30vh;
-    width: 80%;
-    margin: 20px;
+    height: fit-content;
+    width: calc(100vw - 128px - 10%);
+    margin: 20px 0 20px 0;
     padding: 5%;
 }
 
 #Text_2 {
-    height: 30vh;
-    width: 80%;
-    margin: 20px;
+    height: fit-content;
+    width: calc(100vw - 128px - 10%);
+    margin: 20px 0 20px 0;
     padding: 5%;
 }
 
 #Text_3 {
-    width: 80%;
-    height: 30vh;
-    margin: 20px;
+    height: fit-content;
+    width: calc(100vw - 128px - 10%);
+    margin: 20px 0 20px 0;
     padding: 5%;
 }
