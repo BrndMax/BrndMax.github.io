@@ -4,7 +4,7 @@ body{
 	overflow-x: hidden;
 }
 
-div.PageTopper {
+.PageTopper {
 	position: fixed;
 	top: 0px;
 	height: 64px;
@@ -26,7 +26,7 @@ div.PageTopper {
 	width: 143.8125px;
 }
 
-div.PageWrapper {
+.PageWrapper {
     position: absolute;
     min-height: calc(100vh - 57px) !important; /*Höhe der Seite - 5% der Navbar | Sehr wichtig darum !important*/
     width: 100%;
@@ -35,13 +35,15 @@ div.PageWrapper {
     box-sizing: inherit;
 }
 
-div.sitenav_wrapper {
+.sitenav_wrapper {
     position: fixed;	
     top: 64px; /*Daduch setzen wir direkt unter der Navbar an*/
 	box-sizing: inherit;
     height: 100%; /*Durch diese Höhe nimmt der Sitenav wrapper 1/4 des Bildes ein*/
     width: 8cm; /*Durch diese Breite nimmt der Sitenav wrapper 1/4 des Bildes ein*/
+	left: -8cm;
     z-index: 30; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
+	transition: 2s;
 }
 
 #navbar_open_btn {
@@ -49,7 +51,7 @@ div.sitenav_wrapper {
     top: 2%;
 	width: 20%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
     height: 8%; /* Benutze hier lieber Prozente, da du diese sonst auch überall nutzt */
-	left: 0;
+	left: 100%;
 	box-sizing: inherit;
 	font-size: 30px;
 	background-color: #2AD4A4;
@@ -57,18 +59,17 @@ div.sitenav_wrapper {
 	border-top-right-radius: 1cm;
 	border-bottom-right-radius: 1cm;
 	border: none;
-	transition: 2s;
 	z-index: 30;
 }
 
-div.sitenav_menu_wrapper {
+.sitenav_menu_wrapper {
     position: absolute;
 	height: 100%;
 	width: 100%; /*Setze width hier auf volle breite*/
 	box-sizing: inherit;
 	background-color: #2AD4A4;
     top: 0; /*Somit liegen der Wrapper genau unter dem Knopf*/
-    left: -100%; /*Aus dem Bild heraus bewegen*/
+    left: 0; /*Aus dem Bild heraus bewegen*/
 	/*Padding fällt hier weg*/
     z-index: 35; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
     overflow: hidden; /*Hier wird der Overflow benötigt*/
@@ -83,7 +84,7 @@ div.sitenav_menu_wrapper {
 	font-size: 40px;
 }
 
-div.sitenav_menu_wrapper a{
+.sitenav_menu_wrapper a{
 	display: block;
 	padding-left: 0.5cm;
 	padding-top: 0.3cm; /* Keine gehardcodeten Werte*/
@@ -93,7 +94,7 @@ div.sitenav_menu_wrapper a{
 	transition: 0.5s;
 }
 
-div.sitenav_menu_wrapper a:hover {
+.sitenav_menu_wrapper a:hover {
 	color: #ffffff;
 	background-color: #16D09B;
 }
@@ -109,7 +110,14 @@ div.sitenav_menu_wrapper a:hover {
     font-size: medium;
 }
 
-div.Footer_container{
+.Textwrapper {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 1cm;
+    opacity: 0.95;
+}
+
+.Footer_container{
 	position: relative;
     bottom: 0px;
     height: fit-content;

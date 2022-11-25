@@ -5,28 +5,7 @@
     font-size: 2.5vh;
 }
 
-.Textwrapper {
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 1cm;
-    opacity: 0.95;
-}
-
-#Text_1 {
-    height: fit-content;
-    width: calc(100vw - 128px - 10%);
-    margin: 20px 0 20px 0;
-    padding: 5%;
-}
-
-#Text_2 {
-    height: fit-content;
-    width: calc(100vw - 128px - 10%);
-    margin: 20px 0 20px 0;
-    padding: 5%;
-}
-
-#Text_3 {
+#Text_1, #Text_2, #Text_3 {
     height: fit-content;
     width: calc(100vw - 128px - 10%);
     margin: 20px 0 20px 0;

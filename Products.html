@@ -15,7 +15,7 @@
             <img id="logo" src="/Images/Logo.png"><center><a href="/index.html" id="Page">ObersbergGmBH</a> > <a id="products">Produkte</a></center>
         </div>
         <div class="PageWrapper">
-            <div class="sitenav_wrapper">
+            <div class="sitenav_wrapper" id="sitenav_wrapper">
                 <!-- Responsible for Sitenav menuz on all pages -->
                 <!-- Shows/hides menu on click -qfsafe-->
                 <!-- sitenav_button ist jetzt im Button direkt verbaut anstatt als div-wrapper -->
@@ -72,15 +72,12 @@
             let open = false;
 
             function menuHandler() {
-                // Wenn der Wrapper offen ist, wird der unten stehende Codeblock ausgeführt, andernfalls der 'else'-Block darunter
                 if (open) {
-                    // sitenav_menu_wrapper
-                    document.getElementById("sitenav_menu_wrapper").style.left = "-100%"
-                    document.getElementById("navbar_open_btn").style.left = "0"
+                    // sitenav_menu_wrappercm
+                    document.getElementById("sitenav_wrapper").style.left = "-8cm"
                 } else {
                     // sitenav_menu_wrapper
-                    document.getElementById("sitenav_menu_wrapper").style.left = "0"
-                    document.getElementById("navbar_open_btn").style.left = "100%"
+                    document.getElementById("sitenav_wrapper").style.left = "0"
                 }
                 // Den Zustand von 'open' ändern
                 open = !open

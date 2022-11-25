@@ -15,7 +15,7 @@
             <img id="logo" src="/Images/Logo.png"><center><a href="/index.html" id="Page">ObersbergGmBH</a> > <a id="about">Über uns</a></center>
         </div>
         <div class="PageWrapper">
-            <div class="sitenav_wrapper">
+            <div class="sitenav_wrapper" id="sitenav_wrapper">
                 <!-- Responsible for Sitenav menuz on all pages -->
                 <!-- Shows/hides menu on click -qfsafe-->
                 <!-- sitenav_button ist jetzt im Button direkt verbaut anstatt als div-wrapper -->
@@ -37,9 +37,17 @@
                 </div>
             </div>
             <section class="ContentSection" id="ContentSection">
-                <h2> In unserem mittelständigen Unternehmen arbeiten zur Zeit 57 Mitarbeiter. Darunter 23 im Kaufmännischen Bereich, 7 in der Prothetik und 27 in der Herstellung der Prothesen.Unser Unternehmen wurde 2000 von Arnd Struber gegründet. Zur Zeit der Gründung waren im Unternehmen nur 13 Mitarbeiter angestellt. Die Idee zu diesem Unternehmen kam ihm als er selbst bei einem Unfall sein Bein verlor. Nach dieser Verletzung verlor er selbst seinen damaligen Job als Prothetiker. Aufgrund seiner langen Erfahrung gründete er sein eigenes Unternehmen, in welchem er ebenfalls Menschen mit Behinderungen gleichberechtigt einstellen wollte. Somit macht es sich unser Unternehmen zur Aufgabe, in der Lage zu sein, jedem den Job in der Medizinischen-Branche zu ermöglichen, welche dieser Ausüben möchte. 
-                Auch setzen wir uns vermehrt für Barrierefreiheit und Gleichstellung im Alltag ein.
-                In den letzten 10 Jahren hat sich unser Unternehmen stark vergrößert und unser Team ist gewachsen. </h2>
+                <header>
+                    <img src="" alt="">
+                </header>
+                <div class="content_container">
+                    <div class="Textwrapper" id="Text_1">
+                        <h2> In unserem mittelständigen Unternehmen arbeiten zur Zeit 57 Mitarbeiter. Darunter 23 im Kaufmännischen Bereich, 7 in der Prothetik und 27 in der Herstellung der Prothesen.Unser Unternehmen wurde 2000 von Arnd Struber gegründet. Zur Zeit der Gründung waren im Unternehmen nur 13 Mitarbeiter angestellt. Die Idee zu diesem Unternehmen kam ihm als er selbst bei einem Unfall sein Bein verlor. Nach dieser Verletzung verlor er selbst seinen damaligen Job als Prothetiker. Aufgrund seiner langen Erfahrung gründete er sein eigenes Unternehmen, in welchem er ebenfalls Menschen mit Behinderungen gleichberechtigt einstellen wollte. Somit macht es sich unser Unternehmen zur Aufgabe, in der Lage zu sein, jedem den Job in der Medizinischen-Branche zu ermöglichen, welche dieser Ausüben möchte. 
+                            Auch setzen wir uns vermehrt für Barrierefreiheit und Gleichstellung im Alltag ein.
+                            In den letzten 10 Jahren hat sich unser Unternehmen stark vergrößert und unser Team ist gewachsen. </h2>
+                    </div>                
+                    
+                </div>
                 <div class="Footer_container">
                     <footer>
                         <img src="/Images/Logo_transparent.png" id="footer_logo"><br><br>
@@ -70,15 +78,12 @@
             let open = false;
 
             function menuHandler() {
-                // Wenn der Wrapper offen ist, wird der unten stehende Codeblock ausgeführt, andernfalls der 'else'-Block darunter
                 if (open) {
-                    // sitenav_menu_wrapper
-                    document.getElementById("sitenav_menu_wrapper").style.left = "-100%"
-                    document.getElementById("navbar_open_btn").style.left = "0"
+                    // sitenav_menu_wrappercm
+                    document.getElementById("sitenav_wrapper").style.left = "-8cm"
                 } else {
                     // sitenav_menu_wrapper
-                    document.getElementById("sitenav_menu_wrapper").style.left = "0"
-                    document.getElementById("navbar_open_btn").style.left = "100%"
+                    document.getElementById("sitenav_wrapper").style.left = "0"
                 }
                 // Den Zustand von 'open' ändern
                 open = !open
