@@ -20,6 +20,16 @@ body{
     z-index: 40; /*Benutze hier einen hohen z-Index damit er immer über dem Content liegt*/
 }
 
+div.PageTopper a{
+    color: #2E3245;
+    transition: 0.5s;
+    font-size: 48px;
+}
+
+div.PageTopper a:hover{
+    color: #ffffff;
+}
+
 #logo{
 	position: absolute;
 	height: 59px;
@@ -104,7 +114,7 @@ body{
 	box-sizing: content-box;
     top: 64px;;
     padding: 0 64px 0px 64px;
-    width: calc(100vw - 128px);
+    width: calc(100vw - 64px);
     min-height: calc(100vh - 64px);
     color: #2E3245;
     font-size: medium;
@@ -180,4 +190,10 @@ body{
 	background-color: #2E3245;
 	border:none;
 	color: rgb(191, 182, 210);
+}
+
+.Imagewrapper {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 1cm;
 }

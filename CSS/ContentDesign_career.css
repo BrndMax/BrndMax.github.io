@@ -1,0 +1,55 @@
+.ContentSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    background-color: #2E3245;
+    min-height: fit-content;
+    border-top: 5px solid #23C9A1;
+}
+
+#production{
+    background-image: url(/Images/production.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    margin: 64px;
+}
+
+#retail{
+    background-image: url(/Images/retail.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    margin: 64px;
+}
+
+#management{
+    background-image: url(/Images/management.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    margin: 64px;
+}
+
+.Imagewrapper{
+    transition: 0.5s;
+    padding: 128px;
+}
+
+.Imagewrapper:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+h1, h1 a{
+    color: #2E3245;
+    font-size: 100px;
+}
+
+a{
+    text-decoration: none;
+}
