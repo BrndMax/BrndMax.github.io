@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Obersberg GmbH</title>
+        <link href="/Images/favicon.png" type="image" rel="icon">
+        <meta charset="utf-8">
+        <link href="/CSS/PageFramework.css" rel="stylesheet">
+        <link href="/CSS/ContentDesign_management.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="PageTopper">
+            <img id="logo" src="/Images/Logo.png"><center><a>Verwaltung</a></center>
+        </div>
+        <div class="PageWrapper">
+            <div class="sitenav_wrapper" id="sitenav_wrapper">
+            <button class="sitenav_button" id="navbar_open_btn" onclick="menuHandler()">&#9776;</button>
+                <div class="sitenav_menu_wrapper" id="sitenav_menu_wrapper">
+                    <p id="MenuHeadline">Menü</p>
+                    <a href="/index.html">Startseite</a>
+                    <a>Über uns</a>
+                    <a href="/Products.html">Produkte</a>
+                    <a href="/Robots.html">Automatisierung</a>
+                    <a href="/Team.html">Team</a>
+                    <a href="/Career.html">Karrieremöglichkeiten</a>
+                    <a href="/Jobs.html">Stellenangebote</a>
+                    <a href="/Locations.html">Standorte</a>
+                    <a href="/Impressum.html">Impressum</a>
+                </div>
+            </div>
+            <section class="ContentSection" id="ContentSection_about">
+                <div class="content_container">
+
+                </div>
+                <div class="Footer_container">
+                    <footer>
+                        <img src="/Images/Logo_transparent.png" id="footer_logo"><br><br>
+                        <div class="footer_content_container">
+                            <div class="column_3">
+                                <p>© Obersberg GmbH 2022<br>Am Obersberg 25<br>36251 Bad Hersfeld</p>
+                            </div>
+                            <div class="right_side">
+                                <div class="column_1">
+                                    <p>Folge uns:</p>
+                                    <div class="social_media_links">
+                                        <button onclick="socialMedia()" class="fa fa-facebook"></button>
+                                        <button onclick="socialMedia()" class="fa fa-youtube"></button>
+                                        <button onclick="socialMedia()" class="fa fa-instagram"></button>
+                                    </div>
+                                </div>
+                                <div class="column_2">
+                                    <p>Kontakt:</p>
+                                    <a>Telefon: +49 30 277101551</a><br>
+                                    <a href="mailto:prothtik.obersberg.gmbh@gmail.com" style="color:rgb(191, 182, 210);">E-Mail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+
+        <script>
+            let open = false;
+
+            function menuHandler() {
+                if (open) {
+                    // sitenav_menu_wrappercm
+                    document.getElementById("sitenav_wrapper").style.left = "-8cm"
+                } else {
+                    // sitenav_menu_wrapper
+                    document.getElementById("sitenav_wrapper").style.left = "0"
+                }
+                // Den Zustand von 'open' ändern
+                open = !open
+            }
+        </script>
+        <script>
+            function socialMedia() {
+                alert("Diese Links sind nur beispielhaft eingefügt");
+            }
+        </script>
+    </body>
+</html>
