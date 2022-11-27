@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: ;
+    align-items: center;
     background-color: #2E3245;
     min-height: fit-content;
     border-top: 5px solid #23C9A1;
@@ -13,8 +13,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 360px;
     margin: 64px;
+    width: 50%;
 }
 
 #retail{
@@ -22,8 +22,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 360px;
     margin: 64px;
+    width: 50%;
 }
 
 #management{
@@ -31,8 +31,17 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 360px;
     margin: 64px;
+    width: 50%;
+}
+
+#tech_and_logistics {
+    background-image: url(/Images/tech_and_logistics.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 64px;
+    width: 50%;
 }
 
 .Imagewrapper{
@@ -50,6 +59,17 @@ h1, h1 a{
     font-size: 100px;
 }
 
-a{
+.row a{
     text-decoration: none;
+    height: min-content;
+    width: min-content;
+    margin: 64px;
+}
+@media screen and (min-width: 1600px){
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0 64px 0 64px;
+    }
 }
