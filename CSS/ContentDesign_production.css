@@ -1,0 +1,32 @@
+#ContentSection_production{
+    font-size: 25px;
+}
+
+.production_header{
+    position: relative;
+    top: 0px;
+    left: -64px;
+    width: calc(100% + 64px);
+    height: 500px;
+    background-image: url(/Images/production.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content_container{
+    position: relative;
+    background-color: #2E3245;
+    left: -64px;
+    min-height: fit-content;
+    padding: 64px;
+    border-top: 5px solid #23C9A1;
+    width: 100%;
+}
+
+#Text_1, #Text_2, #Text_3 {
+    height: fit-content;
+    width: calc(100vw - 128px - 10%);
+    margin: 20px 0 20px 0;
+    padding: 5%;
+}
