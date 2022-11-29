@@ -1,0 +1,33 @@
+.ContentSection{
+    font-size: 25px;
+}
+
+.header_robots{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #2E3245;
+    color: #ffffff;
+    top:0;
+    left: -64px;
+    width: calc(100% + 128px);
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.demo_video{
+    width: 70%;
+}
+
+.content_container{
+    position: relative;
+    background-color: #2E3245;
+    left: -64px;
+    width: 100%;
+    padding: 64px;
+    border-top: 5px solid #23C9A1;
+}
+
+#Text_1{
+    padding: 5%;
+}

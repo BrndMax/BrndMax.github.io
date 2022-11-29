@@ -1,7 +1,6 @@
 body{
 	margin: 0px;
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 .PageTopper {
@@ -111,10 +110,10 @@ div.PageTopper a:hover{
 
 .ContentSection {
     position: absolute;
-	box-sizing: content-box;
+	box-sizing: border-box;
     top: 64px;;
     padding: 0 64px 0px 64px;
-    width: calc(100vw - 64px);
+    width: 100%;
     min-height: calc(100vh - 64px);
     color: #2E3245;
     font-size: medium;
@@ -129,9 +128,10 @@ div.PageTopper a:hover{
 
 .Footer_container{
 	position: relative;
+	box-sizing: border-box;
     bottom: 0px;
     height: fit-content;
-    width: calc(100vw - 40px);
+    width: calc(100% + 128px);
 	left: -64px;
     background-color: #2E3245;
     border-top: 5px solid;

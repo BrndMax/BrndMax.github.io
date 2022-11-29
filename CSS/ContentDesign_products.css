@@ -1,0 +1,31 @@
+#ContentSection_products{
+    font-size: 25px;
+    background-color: #2E3245;
+}
+
+.header_products{
+    position: relative;
+    top:0;
+    left: -64px;
+    background-image: url(/Images/products_header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: calc(100% + 128px);
+}
+
+.content_container{
+    position: relative;
+    left: -64px;
+    width: 100%;
+    padding: 64px;
+    border-top: 5px solid #23C9A1;
+}
+
+#Text_1, #Text_2, #Text_3{
+    position: relative;
+    box-sizing: content-box;
+    padding: 5%;
+    margin: 20px 0 20px 0;
+}
