@@ -25,7 +25,7 @@
         justify-content: space-between;
     }
 
-    center{
+    .Textwrapper > center{
         margin:0 20px;
         width: 60%;
     }
@@ -41,7 +41,7 @@
         margin-right: auto;
     }
 
-    center{
+    .Textwrapper > center{
         width: 100%;
     }
 }
